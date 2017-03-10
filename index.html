@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="greet.css">
+</head>
+<body>
+
+<div class="box">
+  <h1>GREETING</h1>
+  <label>Name <input type="text" class="myText" id="yourName" /></label>
+
+  <br></br>
+  <button class="greet" onclick="myFunction()">greetMe</button>
+  <button class="ResetMe" onclick="resetFunction()">reset</button>
+  <div id="langugeSelect">
+
+    <input type="radio" name="language" value="Molo">ISIXHOSA<br>
+      <input type="radio" name="language" value="Hello">ENGLISH<br>
+      <input type="radio" name="language" value="HALLO">AFRIKAANS
+<div>
+  <label >Greetings Counter:</label>
+  <label class="frontCounter"></label>
+</div>
+
+</div>
+  <ul class="output"></ul>
+
+</div>
+<div class="name"></div>
+<script src="greet.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+font-size:30px;
+  width: 500px;
+  margin: top;
+    box-sizing: border-box;
+  background-color: green;
+  display: inline;
+}
+h1{
+  text-align: left;
+  font-size: 70px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.button{
+  font-size: 40px;
+}
+
+.box {
+  width: 500px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: top;
+  padding: 80px;
+  border: solid black 20px;
+  box-sizing: border-box;
+}
+
+}
